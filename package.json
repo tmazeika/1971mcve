@@ -1,0 +1,16 @@
+{
+  "name": "1971mcve",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "emulate": "firebase --project=\"demo-project\" --only=firestore emulators:start"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@firebase/app-types": "^0.6.2"
+  }
+}
