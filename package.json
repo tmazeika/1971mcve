@@ -5,6 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "node index.js",
     "emulate": "firebase --project=\"demo-project\" --only=firestore emulators:start"
   },
   "dependencies": {
